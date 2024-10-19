@@ -3,7 +3,7 @@ const fs = require("fs");
 require("dotenv").config();
 
 const config = {
-  SESSION_ID: process.env.SESSION_ID || "Ethix-MD&Xjw1PM1U",
+  SESSION_ID: process.env.SESSION_ID || "Ethix-MD&kXuUjQVE",
   PREFIX: process.env.PREFIX || '.',
   AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN !== true ? process.env.AUTO_STATUS_SEEN === 'true' : true, 
   AUTO_DL: process.env.AUTO_DL !== true ? process.env.AUTO_DL === 'true' : true,
@@ -20,7 +20,7 @@ const config = {
   NOT_ALLOW: process.env.NOT_ALLOW !== true ? process.env.NOT_ALLOW === 'true' : true,
   MODE: process.env.MODE || "public",
   OWNER_NAME: process.env.OWNER_NAME || "✪⏤͟͞★⃝ꪶ‎AFZAAL~KHAN𖥘✪͜͡➺",
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "923556159234",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "2398101069",
   GEMINI_KEY: process.env.GEMINI_KEY || "AIzaSyCUPaxfIdZawsKZKqCqJcC-GWiQPCXKTDc",
   WELCOME: process.env.WELCOME !== true ? process.env.WELCOME === 'true' : false, 
 };
